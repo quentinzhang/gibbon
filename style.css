@@ -1,0 +1,32 @@
+#sourcewin{
+	width:auto;
+	height:auto;
+	min-height:400px;
+	position:relative;
+}
+#editsource{
+	display:block;
+	border:1px solid transparent;
+}
+#editsource:hover{
+	border:1px solid #e7e7eb;
+}
+#editsource.wrapped{
+	border:1px solid #e7e7eb;
+}
+.btn-outter{
+	display:inline-block;
+}
+.btn-outter a{
+	display:block;
+}
+.btn-outter img{
+	display:block;
+	height:20px;
+}
+.CodeMirror{
+	height:auto;
+}
+.CodeMirror-scroll{
+	max-height:2000px;
+}
