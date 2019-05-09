@@ -9,7 +9,7 @@
 
   "content_scripts": [
     {
-      "matches": ["https://mp.weixin.qq.com/cgi-bin/appmsg?t=media/appmsg_edit*&action=edit*"],
+      "matches": ["https://mp.weixin.qq.com/cgi-bin/appmsg?t=media/appmsg_edit*&action=edit*","https://mp.weixin.qq.com/cgi-bin/appmsgtemplate?action=edit*"],
       "css": ["style.css", "codemirror/codemirror.css"],
       "js": ["jquery.min.js", "codemirror/codemirror.js", "codemirror/mode/htmlmixed/htmlmixed.js", "codemirror/mode/xml/xml.js", "codemirror/formatting.js", "main.js"],
       "run_at": "document_end"
